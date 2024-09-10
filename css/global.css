@@ -33,7 +33,7 @@ body{
     justify-content: center;
 }
 
-.main-nav{
+.main-nav .nav-item{
     margin: 0 15px;
 }
 
@@ -118,6 +118,14 @@ body{
     margin-top: 5px;
 }
 
+.article-footer{
+    border-top: 2px solid #eee;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: #777;
+    font-size: 0.9em;
+}
+
 .sidebar{
     flex: 1;
     background-color: #f9f9f9;
@@ -143,4 +151,28 @@ body{
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.author-name,
+.author-email {
+    margin-bottom: 5px;
+}
+
+.email-link {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover{
+    color: #fff;
+}
+
+.footer-copy{
+    font-size: 0.9em;
+    color: #ccc;
 }
